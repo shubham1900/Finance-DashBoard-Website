@@ -1,0 +1,305 @@
+.paddingAll{
+  padding: 10px 10px 10px 12px;
+}
+.priceTitle{
+  font-weight: 600;
+}
+.pricesubTitle{
+  font-size: 14px;
+}
+.iconstyle{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: aliceblue;
+}
+.gradient{
+  background: rgb(106, 93, 169);
+background: linear-gradient(158deg, rgb(90, 89, 105)0%, rgb(141, 144, 177)100%);
+}
+.gradientlight{
+  background: rgb(58, 58, 133);
+background: linear-gradient(158deg, rgb(207, 118, 86)0%, rgb(107, 97, 156)100%);
+}
+.bgcolor{
+  min-height: 100vh;
+  background: #b3c3d2;
+  background: linear-gradient(158deg,rgb(224, 224, 224)0%,rrgb(233, 237, 254) 100%);
+}
+
+
+.bar-chart-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #070404;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* AddTransactionTable.css */
+
+.transaction-container {
+  margin: 20px;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border: 2px solid blue; 
+}
+
+.transaction-table th, .transaction-table td {
+  border: 4px solid rgb(114, 114, 209);
+  padding: 8px;
+}
+
+
+
+.add-row-button:hover, .submit-button:hover {
+  background-color: #73a0ad;
+  border-color: #548a86;
+}
+
+.add-transaction-container {
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+}
+
+.add-row-button {
+  background-color: rgb(193, 163, 131); 
+  border: 2px solid rgb(77, 65, 3);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.add-row-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border: 2px solid blue;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border: 4px solid rgb(114, 114, 209);
+  padding: 8px;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+.recent-transactions {
+  margin-top: 20px;
+}
+
+.transaction-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.transaction-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.transaction-details {
+  padding: 10px;
+  display: none;
+}
+
+.transaction-details.open {
+  display: block;
+}
+
+.transaction-header:hover {
+  background-color: #e0e0e0;
+}
+
+.transaction-header h3 {
+  margin: 0;
+}
+
+.transaction-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-details li {
+  margin-bottom: 5px;
+}
+
+.transaction-details li strong {
+  margin-right: 5px;
+}
+
+.input-field-login {
+  width: 100%;
+  padding: 8px;
+  margin: 4px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+.select-field {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+}
+/* Styles for login page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #4e567a, #764ba2);
+}
+
+.container {
+  width: 350px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+  
+  height: 30px; 
+  margin-top: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #141516;
+}
+.glassmorphism {
+  width: 300px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff;
+}
+
+.login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+.register-button {
+  background-color: #28a745; 
+  width: 100%;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
+/* Social icons styles */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.input-field-number{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+}
